@@ -560,4 +560,4 @@ plot_mspe_ratio <- function(data,time_window=NULL){
     ggplot2::scale_color_manual(values=c("grey50","#b41e7c")) +
     ggplot2::theme_minimal() +
     ggplot2::theme(legend.position = "bottom")
-}
+} 
